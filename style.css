@@ -1,0 +1,25 @@
+.new {
+  color: rgb(230, 38, 38);
+  word-spacing: 12px;
+  letter-spacing: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 900;
+
+  text-shadow: 4px 3px 12px rgb(0, 183, 255);
+  font-family: "Comforter", cursive;
+}
+
+.para {
+  color: rgb(0, 0, 0);
+  word-spacing: 2px;
+  letter-spacing: 9px;
+
+  text-transform: uppercase;
+  /* background-color: rgb(0, 0, 0); */
+  font-weight: 400;
+  font-size: 20px;
+  text-shadow: 4px 3px 12px rgb(0, 255, 234);
+font-family: 'Supermercado One', cursive;
