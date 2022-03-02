@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 85%;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: rgb(2, 2, 2);
+  min-height: 390px;
+  border-radius: 25px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* navigation box 1 */
+.nav {
+  background-color: rgb(255, 123, 0);
+  margin-top: 5vh;
+  border-radius: 25px;
+}
+.nav ul {
+  padding: 1%;
+}
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+  padding: 1% 2%;
+  border-radius: 50px 25px;
+}
+.nav ul li a:hover {
+  background-color: rgb(19, 243, 224);
+  margin-top: 10vh;
+}
+
+/* navigation box 2 */
+.nav2 {
+  background-color: rgb(235, 240, 245);
+  margin-top: 5vh;
+  border-radius: 15px;
+}
+.nav2 ul {
+  padding: 1%;
+}
+.nav2 ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+  padding: 1% 2%;
+  border-radius: 30px 25px;
+}
+.nav2 ul li a:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+/* navigation box 3 */
+.nav3 {
+  background-color: rgb(48, 228, 153);
+  margin-top: 5vh;
+  border-radius: 10px 20px;
+}
+.nav3 ul {
+  padding: 1%;
+}
+.nav3 ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav3 ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+  padding: 1% 2%;
+  border-radius: 10px 20px;
+}
+.nav3 ul li a:hover {
+  background-color: rgb(231, 231, 223);
+}
+
+/* navigation box 4 */
+.nav4 {
+  background-color: rgb(255, 251, 0);
+  margin-top: 5vh;
+  border-radius: 50px 25px;
+}
+.nav4 ul {
+  padding: 1%;
+}
+.nav4 ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav4 ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+  padding: 1% 2%;
+  border-radius: 80px 30px 25px;
+}
+.nav4 ul li a:hover {
+  background-color: rgb(0, 255, 76);
+}
+
+/* navigation box 5 */
+.nav5 {
+  background-color: rgb(228, 48, 93);
+  margin-top: 5vh;
+  border-radius: 75px 30px 30px;
+}
+.nav5 ul {
+  padding: 1%;
+}
+.nav5 ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav5 ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+  padding: 1% 2%;
+  border-radius: 30px 75px 30px;
+}
+.nav5 ul li a:hover {
+  background-color: rgb(255, 251, 0);
+}
