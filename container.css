@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
+.main {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10vh;
+  height: 700px;
+  border-radius: 25px;
+  background-color: black;
+  padding: 4%;
+}
+
 .header {
   width: 85%;
   margin: auto;
   margin-bottom: 10vh;
-  min-height: 390px;
   border-radius: 25px;
   padding: 4%;
 }
@@ -16,20 +25,37 @@
 .container {
   width: 85%;
   margin: auto;
-  background-color: rgb(184, 63, 63);
+
   border-radius: 25px;
   margin-left: 50px;
 }
 .container ul {
-  color: rgb(38, 230, 156);
-  word-spacing: 5px;
   margin-left: 20px;
 
   text-transform: uppercase;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 800;
   font-family: "Comforter", cursive;
   display: inline;
+}
+
+.container ul {
+}
+.container ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+  text-transform: uppercase;
+
+  border-radius: 15px 15px 25px;
+}
+.container ul li a:hover {
+  background-color: rgb(230, 102, 208);
+  margin-top: 10vh;
 }
 
 .clr {
@@ -43,7 +69,6 @@
   border-radius: 25px;
 }
 .nav ul {
-  padding: 1%;
 }
 .nav ul li {
   display: inline;
@@ -53,7 +78,7 @@
   text-decoration: none;
   color: rgb(128, 0, 0);
   text-transform: uppercase;
-  padding: 1% 2%;
+
   border-radius: 50px 25px;
 }
 .nav ul li a:hover {
