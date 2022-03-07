@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(14, 211, 168);
+}
+.wraper {
+  width: 95%;
+  margin: auto;
+}
+.logo {
+  width: 10%;
+  float: left;
+  /* margin-top: 20px; */
+  line-height: 100px;
+}
+
+.logo a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(239, 247, 239);
+  font-weight: 700;
+  border-radius: 10px 20px 30px;
+}
+.text {
+  width: 90%;
+  float: right;
+}
+
+.text ul {
+  text-align: right;
+}
+.text ul li {
+  display: inline;
+  line-height: 100px;
+}
+.text ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(236, 232, 232);
+
+  padding: 1%;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+.text ul li a:hover {
+  background-color: rgb(232, 241, 232);
+  color: red;
+}
+
+/* image insert */
+.image {
+  width: 100%;
+}
+.image img {
+  height: 900px;
+  width: 100%;
+  margin-top: -10px;
+  filter: blur(2px);
+}
+
+.wrt {
+  padding: 10%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: rgb(41, 194, 61);
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+p {
+  text-transform: capitalize;
+
+  color: black;
+}
+.wrt1 {
+  padding: 10%;
+  position: absolute;
+  top: 110%;
+  left: 5%;
+  color: rgb(206, 39, 39);
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+p {
+  text-transform: capitalize;
+
+  color: rgb(21, 21, 22);
+}
