@@ -1,0 +1,81 @@
+.bg1 {
+  background-color: rgb(104, 101, 101);
+}
+.bg2 {
+  background-color: rgb(104, 101, 101);
+}
+.bg3 {
+  background-color: rgb(104, 101, 101);
+}
+.bg4 {
+  background-color: rgb(104, 101, 101);
+}
+.bg5 {
+  background-color: rgb(104, 101, 101);
+}
+.bg6 {
+  background-color: rgb(104, 101, 101);
+}
+.bg7 {
+  background-color: rgb(104, 101, 101);
+}
+
+.bg8 {
+  background-color: rgb(104, 101, 101);
+}
+.bg9 {
+  background-color: rgb(104, 101, 101);
+}
+.bg10 {
+  background-color: rgb(104, 101, 101);
+}
+.bg11 {
+  background-color: rgb(104, 101, 101);
+}
+.bg12 {
+  background-color: rgb(104, 101, 101);
+}
+.bg13 {
+  background-color: rgb(104, 101, 101);
+}
+.bg14 {
+  background-color: rgb(104, 101, 101);
+}
+.back {
+  width: 100%;
+}
+.back img {
+  height: 900px;
+  width: 100%;
+  filter: blur(1.2px);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+
+  height: 200px;
+  position: absolute;
+  padding: 10%;
+  bottom: 40%;
+  margin-left: 500px;
+  text-transform: capitalize;
+}
+.items {
+  color: aliceblue;
+  padding-left: 25px;
+  line-height: 100px;
+}
+
+.items a {
+  color: rgb(195, 202, 200);
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: serif;
+}
+.items a:hover {
+  border: 2px solid rgb(248, 242, 242);
+}
